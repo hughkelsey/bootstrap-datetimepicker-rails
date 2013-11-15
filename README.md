@@ -1,12 +1,18 @@
 # Bootstrap::Datetimepicker::Rails
 
-TODO: Write a gem description
+A gem to wrap https://github.com/smalot/bootstrap-datetimepicker for the
+Asset Pipeline.
 
 ## Installation
 
+## Rails > 4.0
+
+
 Add this line to your application's Gemfile:
 
+``` ruby
     gem 'bootstrap-datetimepicker-rails'
+```
 
 And then execute:
 
@@ -16,9 +22,19 @@ Or install it yourself as:
 
     $ gem install bootstrap-datetimepicker-rails
 
-## Usage
+## Configuration
 
-TODO: Write usage instructions here
+Add this line to app/assets/stylesheets/application.css
+
+``` css
+ *= require bootstrap-datetimepicker-rails
+```
+
+Add this line to app/assets/javascripts/application.js
+
+``` javascript
+//= require bootstrap-datetimepicker-rails
+```
 
 ## Contributing
 
